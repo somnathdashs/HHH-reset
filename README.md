@@ -2,6 +2,10 @@
 
 This is the simple backend that can be used to handle reset password and email verification for appwrite very easily.
 
+## ⚠ For Using
+- Add the Web Platform to your appwrite project
+- Then make sure to replace with your **APPWRITE PROJECT ID**
+with the `'<YOUR-PROJECT-ID>'` in `/controllers/auth_controller.js`.
 
 ## 🔥 All Endpoints 
 |Method | Endpoint | Query | Usage
