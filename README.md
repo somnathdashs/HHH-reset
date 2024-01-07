@@ -9,7 +9,7 @@ This is the simple backend that can be used to handle reset password and email v
 |GET| /  |  | Simple Home Page |
 |POST| /verify| `userId, secret`| Email verification |
 |GET| /recovery| `userId, secret`| Reset Password Page |
-|POST| /recovery| `userId, secret, password, password_confirm `| Reset Password |
+|POST| /reset_password| `userId, secret, password, password_confirm `| Reset Password |
 
 
 
