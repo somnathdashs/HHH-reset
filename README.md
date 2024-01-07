@@ -1,4 +1,4 @@
-# `Reset Password` and `Verify Email` Node Appwrite Backend
+# Reset Password and Verify Email Node Appwrite Backend
 
 This is the simple backend that can be used to handle reset password and email verification for appwrite very easily.
 
