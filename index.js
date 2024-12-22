@@ -14,21 +14,7 @@ app.get("/", (req, res) => {
     res.render("index")
 })
 
-// email veriifcation endpoint
-app.get("/verify",async(req,res)=>{
-    const {userId,secret}=req.query;
-    console.log("userId",userId);
-    console.log("secret",secret);
 
-    try{
-        const result = await updateVerification(userId, secret); // Wait for updateVerification function to complete
-        console.log(result);
-        res.render("template",{title:"✅ Verification Complete", message:"Your email address has been verified successfully.",});
-    }
-    catch(e){
-        res.render("template",{title:"❌ Verification Failed", message:`⚠️ Reason : ${e.message}`,});
-    }
-})
 
 // password reset endpoint
 app.get("/recovery", (req, res) => {
